@@ -1,0 +1,13 @@
+{
+  "name": "pattern-gallery-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.4",
+  "scripts": {
+    "test": "pnpm --filter registry-toolkit test && pnpm --filter pattern-gallery test",
+    "typecheck": "pnpm --filter pattern-gallery typecheck",
+    "build": "pnpm --filter pattern-gallery build",
+    "gallery": "pnpm --filter pattern-gallery dev"
+  }
+}

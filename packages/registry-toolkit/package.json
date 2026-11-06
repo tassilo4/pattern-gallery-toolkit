@@ -1,0 +1,15 @@
+{
+  "name": "registry-toolkit",
+  "version": "1.0.0",
+  "description": "Build static preview galleries from shadcn-compatible component registries.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "scaffold-registry": "node scaffold-registry.mjs",
+    "mount-patterns": "node mount-patterns.mjs",
+    "dev-registry": "node dev-registry.mjs",
+    "build-registry": "node build-registry.mjs",
+    "publish-gallery": "node publish-gallery.mjs",
+    "test": "node --test ./*.test.mjs"
+  }
+}

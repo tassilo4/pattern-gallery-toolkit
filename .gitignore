@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+apps/gallery/catalog.json
+apps/gallery/public/sites/
+packages/registry-toolkit/src/

@@ -1,0 +1,4 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+  - "packages/registry-toolkit/src/*/site"
